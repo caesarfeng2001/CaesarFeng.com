@@ -1,7 +1,7 @@
 
 
 h2 {
-    font-size: 200%;
+    font-size: 250%;
     position: relative;
     color: #5d3b1a;
 }
@@ -28,17 +28,6 @@ h2 {
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
 }
-
-.row-second {
-    padding-top: 10%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width:100vw;
-    background:#EAE7DC;
-}
-
 
 p { 
     display: block;
