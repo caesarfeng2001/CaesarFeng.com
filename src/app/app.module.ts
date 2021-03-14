@@ -7,6 +7,11 @@ import { TemplateComponent } from './template/template.component';
 import { IntroComponent } from './intro/intro.component';
 import { BodyComponent } from './body/body/body.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatCardModule } from '@angular/material/card';
+import { MaterialElevationDirective } from './material-elevation.directive';
+
+
 
 
 @NgModule({
@@ -14,12 +19,15 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AppComponent,
     TemplateComponent,
     IntroComponent,
-    BodyComponent
+    BodyComponent,
+    MaterialElevationDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    BrowserAnimationsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
