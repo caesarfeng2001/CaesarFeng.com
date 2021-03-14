@@ -25,13 +25,15 @@ h2 {
   box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
 }
 
-.exp-card {
- 
+.mat-card {
+  font-family: "Source Code Pro", monospace;
 }
+
+
 
 .cardIMG {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   margin: 0;
   padding-bottom: 10px;
 }
@@ -42,6 +44,10 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+.projects {
+  margin-top: 50px;
 }
 
 
