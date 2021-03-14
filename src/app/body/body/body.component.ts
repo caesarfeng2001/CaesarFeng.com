@@ -13,6 +13,12 @@ export class BodyComponent implements OnInit {
   mom: string;
   quebec: string;
   flightdeck: string;
+  cbr: string;
+  ocr: string;
+  eris: string;
+  killswitch: string;
+  where: string;
+  apoc: string;
   defaultElevation = 2;
   raisedElevation = 8;
   constructor() { 
@@ -23,6 +29,11 @@ export class BodyComponent implements OnInit {
     this.mom = "/assets/company_logos/mom.jpg";
     this.quebec = "/assets/company_logos/quebec.jpg";
     this.flightdeck = "/assets/company_logos/flightdeck.png";
+    this.cbr = "/assets/company_logos/cbr.png";
+    this.ocr = "/assets/company_logos/gas.PNG";
+    this.eris = "/assets/company_logos/eris.png";
+    this.where = "/assets/company_logos/where.png";
+    this.apoc = "/assets/company_logos/apoc.PNG";
   }
 
   ngOnInit(): void {
