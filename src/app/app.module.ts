@@ -9,6 +9,8 @@ import { BodyComponent } from './body/body/body.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
+import { MaterialElevationDirective } from './material-elevation.directive';
+
 
 
 
@@ -17,7 +19,8 @@ import { MatCardModule } from '@angular/material/card';
     AppComponent,
     TemplateComponent,
     IntroComponent,
-    BodyComponent
+    BodyComponent,
+    MaterialElevationDirective
   ],
   imports: [
     BrowserModule,

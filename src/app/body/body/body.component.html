@@ -40,8 +40,8 @@
                                 When I'm not focused on my academics or busy coding, you will most likely find me in the
                                 gym either playing
                                 basketball or weightlifting.
-                                I also have keen interests in fashion and traveling. If you ever want to chat about
-                                these topics, please reach out!
+                                I also have keen interests in fashion and traveling. I'm always down to chat about these topics or others, 
+                                so please reach out!
                             </p>
                         </div>
                     </div>
@@ -71,13 +71,14 @@
                 <div>
                     <div class="row">
                         <div class="col-md-6">
-                            <mat-card class="exp-card">
+                            <mat-card class="exp-card" appMaterialElevation [defaultElevation]="defaultElevation" raisedElevation="16">
                                 <mat-card-header>
                                   <div mat-card-avatar class="example-header-image"></div>
-                                  <mat-card-title>Shiba Inu</mat-card-title>
-                                  <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                                  <mat-card-title>Royal Canadian Air Force</mat-card-title>
+                                  <mat-card-subtitle>Full Stack Developer</mat-card-subtitle>
+                                  <mat-card-subtitle>Jan-May 2021</mat-card-subtitle>
                                 </mat-card-header>
-                                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+                                <img mat-card-image class="cardIMG" [src]="flightdeck" alt="Photo of a Shiba Inu">
                                 <mat-card-content>
                                   <p>
                                     The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
@@ -85,21 +86,24 @@
                                     bred for hunting.
                                   </p>
                                 </mat-card-content>
+                                <!--
                                 <mat-card-actions>
                                   <button mat-button>LIKE</button>
                                   <button mat-button>SHARE</button>
                                 </mat-card-actions>
+                                -->
                               </mat-card>
                               
                         </div>
                         <div class="col-md-6">
-                            <mat-card class="exp-card">
+                            <mat-card class="exp-card" appMaterialElevation [defaultElevation]="defaultElevation" raisedElevation="16">
                                 <mat-card-header>
                                   <div mat-card-avatar class="example-header-image"></div>
-                                  <mat-card-title>Shiba Inu</mat-card-title>
-                                  <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                                  <mat-card-title>SaFuture Inc.</mat-card-title>
+                                  <mat-card-subtitle>Software Engineer</mat-card-subtitle>
+                                  <mat-card-subtitle>May-Sept 2020</mat-card-subtitle>
                                 </mat-card-header>
-                                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+                                <img mat-card-image class="cardIMG" [src]="safutureLogo" alt="Photo of a Shiba Inu">
                                 <mat-card-content>
                                   <p>
                                     The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
@@ -107,10 +111,12 @@
                                     bred for hunting.
                                   </p>
                                 </mat-card-content>
+                                <!--
                                 <mat-card-actions>
                                   <button mat-button>LIKE</button>
                                   <button mat-button>SHARE</button>
                                 </mat-card-actions>
+                                -->
                               </mat-card>
                         </div>
                     </div>
