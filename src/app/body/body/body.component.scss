@@ -3,7 +3,7 @@
 h2 {
     font-size: 250%;
     position: relative;
-    color: #41B285;
+    color: #4;
 }
 
 #page-body {
@@ -71,8 +71,11 @@ p {
 }
 
 .tab-image {
-    height: 50vh;
-}
+    max-width: 100%;
+    height: auto;
+    border-radius: .25rem;
+} 
+
 
 .company-title {
     width:100%;
