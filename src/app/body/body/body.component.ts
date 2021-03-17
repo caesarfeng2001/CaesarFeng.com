@@ -32,7 +32,7 @@ export class BodyComponent implements OnInit {
     this.cbr = "/assets/company_logos/cbr.png";
     this.ocr = "/assets/company_logos/gas.PNG";
     this.eris = "/assets/company_logos/eris.png";
-    this.where = "/assets/company_logos/where.png";
+    this.where = "/assets/company_logos/where.PNG";
     this.apoc = "/assets/company_logos/apoc.PNG";
   }
 

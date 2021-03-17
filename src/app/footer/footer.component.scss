@@ -1,0 +1,12 @@
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12%;
+    padding-right: 12%;
+    height: 20vh;
+    color: #5d3b1a;
+    position: relative;
+    background: linear-gradient(to right, rgba(222,209,189,1) 0%, rgba(250,246,242,1) 95%);
+  }
