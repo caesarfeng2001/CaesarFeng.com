@@ -16,3 +16,22 @@
     padding-top: 20px;
     text-align: center;
   }
+
+  a {
+    color: #5d3b1a;
+    opacity: 80%;
+    font-size: 6rem;
+    padding: 2rem;
+  }
+
+  a:hover {
+    opacity: 100%;
+
+  }
+
+  @media (max-width: 768px) {
+    a {
+      font-size: 3rem;
+      padding: 1rem;
+    }
+  }
