@@ -92,10 +92,10 @@ Delete() {
     //this.typeWriter(this);
     this.getIntroHeight();
     this.content = [ 
-      "a Computer Science Student.", 
-      "a Software Engineer.", 
-      "a Team-Player.", 
-      "an Analytical Thinker."
+      "a Computer Science student.", 
+      "a Software Developer.", 
+      "a strong collaborator.", 
+      "an innovative thinker."
     ];
     this._PART = 0;
     this._PART_INDEX = 0;
