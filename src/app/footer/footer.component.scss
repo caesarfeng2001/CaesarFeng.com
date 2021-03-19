@@ -1,12 +1,18 @@
 .footerContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 12%;
     padding-right: 12%;
-    height: 20vh;
     color: #5d3b1a;
     position: relative;
     background: linear-gradient(to right, rgba(222,209,189,1) 0%, rgba(250,246,242,1) 95%);
+  }
+
+
+  .footerContent {
+    padding-top: 20px;
+    text-align: center;
   }
