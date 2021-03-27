@@ -19,6 +19,7 @@ export class BodyComponent implements OnInit {
   killswitch: string;
   where: string;
   apoc: string;
+  covid: string;
   defaultElevation = 2;
   raisedElevation = 8;
   constructor() { 
@@ -34,6 +35,7 @@ export class BodyComponent implements OnInit {
     this.eris = "/assets/company_logos/eris.png";
     this.where = "/assets/company_logos/where.PNG";
     this.apoc = "/assets/company_logos/apoc.PNG";
+    this.covid = "/assets/company_logos/covid.png";
   }
 
   ngOnInit(): void {

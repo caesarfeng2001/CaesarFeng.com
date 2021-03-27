@@ -6,14 +6,20 @@ h2 {
     color: #5d3b1a;
 }
 
+#experience, #projects h2 {
+  padding-top: 6rem;
+}
+
 #page-body {
-    padding-top: 4rem;
     margin: 0 auto;
     width:100vw;
     
     background:#FDF8F5;
 }
 
+#about {
+  padding-top: 6rem;
+}
 
 .box-shadow-full {
   padding: 3rem 1.25rem;
