@@ -23,19 +23,19 @@ export class BodyComponent implements OnInit {
   defaultElevation = 2;
   raisedElevation = 8;
   constructor() { 
-    this.rcafLogo = "/assets/company_logos/RCAF.jpg";
-    this.safutureLogo = "/assets/company_logos/safuture.png";
-    this.me = "/assets/company_logos/me.jpg";
-    this.basketball = "/assets/company_logos/basketball.jpg";
-    this.mom = "/assets/company_logos/mom.jpg";
-    this.quebec = "/assets/company_logos/quebec.jpg";
-    this.flightdeck = "/assets/company_logos/flightdeck.png";
-    this.cbr = "/assets/company_logos/cbr.png";
-    this.ocr = "/assets/company_logos/gas.PNG";
-    this.eris = "/assets/company_logos/eris.png";
-    this.where = "/assets/company_logos/where.PNG";
-    this.apoc = "/assets/company_logos/apoc.PNG";
-    this.covid = "/assets/company_logos/covid.png";
+    this.rcafLogo = "./assets/company_logos/RCAF.jpg";
+    this.safutureLogo = "./assets/company_logos/safuture.png";
+    this.me = "./assets/company_logos/me.jpg";
+    this.basketball = "./assets/company_logos/basketball.jpg";
+    this.mom = "./assets/company_logos/mom.jpg";
+    this.quebec = "./assets/company_logos/quebec.jpg";
+    this.flightdeck = "./assets/company_logos/flightdeck.png";
+    this.cbr = "./assets/company_logos/cbr.png";
+    this.ocr = "./assets/company_logos/gas.PNG";
+    this.eris = "./assets/company_logos/eris.png";
+    this.where = "./assets/company_logos/where.PNG";
+    this.apoc = "./assets/company_logos/apoc.PNG";
+    this.covid = "./assets/company_logos/covid.png";
   }
 
   ngOnInit(): void {
