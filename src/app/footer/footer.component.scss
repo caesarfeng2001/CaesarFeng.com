@@ -1,0 +1,37 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 12%;
+    padding-right: 12%;
+    color: #5d3b1a;
+    position: relative;
+    background: linear-gradient(to right, rgba(222,209,189,1) 0%, rgba(250,246,242,1) 95%);
+  }
+
+
+  .footerContent {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  a {
+    color: #5d3b1a;
+    opacity: 80%;
+    font-size: 6rem;
+    padding: 2rem;
+  }
+
+  a:hover {
+    opacity: 100%;
+
+  }
+
+  @media (max-width: 768px) {
+    a {
+      font-size: 3rem;
+      padding: 1rem;
+    }
+  }

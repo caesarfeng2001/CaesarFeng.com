@@ -1,0 +1,73 @@
+
+
+h2 {
+    font-size: 250%;
+    position: relative;
+    color: #5d3b1a;
+}
+
+#experience, #projects h2 {
+  padding-top: 6rem;
+}
+
+#page-body {
+    margin: 0 auto;
+    width:100vw;
+    
+    background:#FDF8F5;
+}
+
+#about {
+  padding-top: 6rem;
+}
+
+.box-shadow-full {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.mat-card {
+  font-family: "Source Code Pro", monospace;
+  
+}
+
+
+.exp-card {
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+
+
+
+.cardIMG {
+  width: 100%;
+  height: 50vh;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.projectCardIMG {
+  width: 100%;
+  height: 20vh;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+p { 
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+#contact {
+  background-color: #5d3b1a;
+}
+
+
